@@ -1,0 +1,7 @@
+.p1 {
+  width: 300px;
+}
+.p2 {
+  width: 300px;
+  transform: scaleX(-1);
+}

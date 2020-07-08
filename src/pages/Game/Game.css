@@ -1,0 +1,17 @@
+.card-arrangement {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+}
+.flip {
+  transform: scaleX(-1);
+}
+.select-choice {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fight-btn {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
