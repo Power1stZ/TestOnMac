@@ -14,7 +14,7 @@ export const Card = ({ choice, player }) => {
 
   return (
     <div>
-      <img src={weapon} className={player} />
+      <img src={weapon} className={player} alt="choice" />
     </div>
   );
 };
