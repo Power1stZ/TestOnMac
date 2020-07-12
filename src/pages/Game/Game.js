@@ -16,7 +16,6 @@ export const Game = () => {
   const [r2, setR2] = useState("nCircle");
   const [r3, setR3] = useState("nCircle");
   const [end, setEnd] = useState(true);
-  //const [rs, setRs] = useState("null");
 
   useEffect(() => {
     if (player2 != null && end) {
