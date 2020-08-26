@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import firebase from "firebase"
 import "./Menu.css";
 import { Header } from "../../components/Message/Header.js";

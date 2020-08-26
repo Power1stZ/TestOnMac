@@ -49,7 +49,7 @@ export const Game = () => {
   }, [player2, end, turn]);
 
   useEffect(() => {
-    if (turn === 3 && r3 != "nCircle") {
+    if (turn === 3 && r3 !== "nCircle") {
       let temp1 = 0;
       let temp2 = 0;
       let temp3 = 0;
