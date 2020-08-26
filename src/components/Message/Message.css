@@ -1,0 +1,37 @@
+.navbar{
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar-item{
+    color:red;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    margin: 10px 100px;
+}
+.card-content{
+    color:blue;
+}
+
+.button-is-danger{
+    color: white;
+    background-color: red;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columns{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
