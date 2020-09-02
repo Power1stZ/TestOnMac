@@ -8,13 +8,12 @@ import { Game } from "./pages/Game/Game";
 import { Menu } from "./pages/Menu/Menu";
 import { Home } from "./pages/Home/Home";
 const routing = (
-  <Router>
+  <Router basename={'/src'}>
     <div>
       <Switch>
-        <Route exact path="/" component={ App } />
-        <Route path="/menu" component={ Menu } />
+        <Route exact path="/" component={ Home } />
         <Route path="/game" component={ Game } />
-        <Route path="/home" component={ Home } />
+        <Route path="/menu" component={ Menu } />
       </Switch>
     </div>
   </Router>

@@ -21,7 +21,7 @@ class MessageBox extends Component {
       e.preventDefault();
       let dbCon = this.props.db.database().ref('/messages');
       dbCon.push({
-        message: trim(e.target.value)
+        message: localStorage.getItem("name") +" : "+ trim(e.target.value)
       });
       this.setState({
         message: ''
